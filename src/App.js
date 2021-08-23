@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/output.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import { Image, Video, Transformation, CloudinaryContext } from 'cloudinary-react';
+import Landing from './components/Landing';
+import Friend from './components/Friend';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Landing />
+        </Route>
+        <Route exact path="/friend1">
+          <Friend
+            name="friend1" />
+        </Route>
+        <Route exact path="/friend2">
+          <Friend
+            name="friend2" />
+        </Route>
+        <Route exact path="/friend3">
+          <Friend
+            name="friend3"
+          />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
