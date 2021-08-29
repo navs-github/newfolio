@@ -1,8 +1,9 @@
 import './styles/output.css';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import { Image, Video, Transformation, CloudinaryContext } from 'cloudinary-react';
-import Landing from './components/Landing';
-import Friend from './components/Friend';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
+import Landing from './pages/Landing'
+import About from './pages/About'
+import Work from './pages/Work'
 
 function App() {
   return (
@@ -11,18 +12,26 @@ function App() {
         <Route exact path="/">
           <Landing />
         </Route>
-        <Route exact path="/friend1">
-          <Friend
-            name="friend1" />
+        <Route exact path="/work">
+          <Work />
         </Route>
-        <Route exact path="/friend2">
-          <Friend
-            name="friend2" />
+        <Route exact path="/about">
+          <About />
         </Route>
-        <Route exact path="/friend3">
-          <Friend
-            name="friend3"
-          />
+        <Route exact path="/process">
+          <Work />
+        </Route>
+        <Route exact path="/contact">
+          <Work />
+        </Route>
+        <Route exact path="/books">
+          <Work />
+        </Route>
+        <Route exact path="/notion">
+          <Work />
+        </Route>
+        <Route exact path="/playlists">
+          <Work />
         </Route>
       </Switch>
     </Router>

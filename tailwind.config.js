@@ -2,27 +2,61 @@ module.exports = {
   mode: "jit",
   purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
   theme: {
+
     extend: {
       backgroundImage: theme => ({
-        'pattern': "url('../pattern.png')",
-      })
-    },
-    screens: {
-      sm: "640px",
-      md: "768px",
-      lg: "1024px",
-      xl: "1280px",
-      "2xl": "1536px",
-      msm: { max: "640px" },
-      mmd: { max: "768px" },
-      mlg: { max: "1024px" },
-      mxl: { max: "1280px" },
-      m2xl: { max: "1536px" },
+        // 'grain': "url('../pattern.png')",
+        'grain': "url('../img/grain.png')",
+      }),
+      colors: {
+        yellow: {
+          base: '#E3B23C',
+          accent: '#EFAA06',
+        },
+        warm: '#EDEBD7',
+        dark: '#0B0E13',
+      },
+
+      keyframes: {
+        slideup: {
+          '0%': { transform: 'translateY(40px)', opacity: '0' },
+          '100%': { transform: 'translateY(0px)', opacity: '1' },
+        },
+        fadein: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        slidedown: {
+          '0%': { transform: 'translateY(-3rem)' },
+          '100%': { transform: 'translateY(0px)' },
+        },
+        slideright: {
+          '0%': { transform: 'translateX(-60px)' },
+          '100%': { transform: 'translateX(0px)' },
+        },
+        sliderightalt: {
+          '0%': { transform: 'translateX(0px)' },
+          '100%': { transform: 'translateX(30px)' },
+        },
+      },
+      animation: {
+        'slideup': 'slideup 1.2s ease forwards',
+        'slideup50': 'slideup 1.2s ease 0.05s forwards',
+        'slideup100': 'slideup 1.2s ease 0.1s forwards',
+        'slideup150': 'slideup 1.2s ease 0.15s forwards',
+        'slideup200': 'slideup 1.2s ease 0.2s forwards',
+        'slideupalt': 'slideup 1.2s ease forwards',
+        'fadein': 'fadein 0.8s ease 0.75s forwards',
+        'fadeinfaster': 'fadein 0.8s ease 0.325s forwards',
+        'slideright': 'slideright 1s ease-out',
+        'sliderightalt': 'sliderightalt 2s ease-out 2 alternate forwards',
+        'slidedown': 'slidedown 1s ease-in-out'
+      },
     },
     fontFamily: {
-      poppins: ['Poppins'],
-      sofia: ['Sofia'],
-      space: ['Space Mono']
+      inter: ['Inter'],
+      work: ['Work Sans'],
+      lora: ['Lora']
     },
   },
 };
