@@ -825,6 +825,9 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(237, 235, 215, var(--tw-bg-opacity));
 }
+.bg-grain {
+	background-image: url('../img/grain.png');
+}
 .bg-contain {
 	background-size: contain;
 }

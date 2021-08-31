@@ -6,7 +6,6 @@ import Layout from '../components/Layout'
 import TopNav from '../components/TopNav'
 import BoxHeading from '../components/BoxHeading'
 import BigText from '../components/BigText'
-import ArrowLinkExternal from '../components/ArrowLinkExternal'
 import ArrowLinkInternal from '../components/ArrowLinkInternal'
 import Footer from '../components/Footer'
 

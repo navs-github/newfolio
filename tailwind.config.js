@@ -5,6 +5,8 @@ module.exports = {
 
     extend: {
       backgroundImage: theme => ({
+        // 'grain': "url('../pattern.png')",
+        'grain': "url('../img/grain.png')",
       }),
       colors: {
         yellow: {

@@ -1,6 +1,4 @@
 //packages
-import { useEffect, useRef } from 'react'
-import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-router-dom';
 
 //assets
@@ -13,14 +11,11 @@ function TopNav() {
     // useEffect(() => {
     //     logoRef.current.classList.add('animate-slideup')
     // }, [])
-    const [logoRef, inView] = useInView({
-        triggerOnce: true,
-        rootMargin: '-50px 0px',
-    });
+
     return (
         <header className="pt-8 xl:pt-12">
             <div className=" flex flex-col space-y-6 xl:flex-row w-full xl:space-y-0 xl:justify-between items-center">
-                <div ref={logoRef} className="animate-slideup">
+                <div className="animate-slideup">
                     <Logo></Logo>
                 </div>
                 <nav className="w-full xl:w-auto font-work font-medium text-sm xl:text-lg">

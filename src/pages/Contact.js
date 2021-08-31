@@ -5,7 +5,6 @@ import { useInView } from 'react-intersection-observer';
 import Layout from '../components/Layout'
 import TopNav from '../components/TopNav'
 import BoxHeading from '../components/BoxHeading'
-import BigText from '../components/BigText'
 import ArrowLinkExternal from '../components/ArrowLinkExternal'
 import Footer from '../components/Footer'
 
@@ -15,10 +14,6 @@ function Contact() {
         rootMargin: '-50px 0px',
     });
 
-    const [secondRef, inViewSecond] = useInView({
-        triggerOnce: true,
-        rootMargin: '-50px 0px',
-    });
     return (
         <Layout>
             <TopNav></TopNav>

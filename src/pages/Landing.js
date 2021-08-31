@@ -1,5 +1,4 @@
 //packages
-import { useRef } from 'react'
 import { useInView } from 'react-intersection-observer';
 
 //components
@@ -8,19 +7,16 @@ import TopNav from '../components/TopNav'
 import BoxHeading from '../components/BoxHeading'
 import BigTextHero from '../components/BigTextHero'
 import BigText from '../components/BigText'
-import ArrowLinkInternal from '../components/ArrowLinkInternal'
 import ArrowLinkExternal from '../components/ArrowLinkExternal'
 import Works from '../components/Works'
 import Footer from '../components/Footer'
 
 
 //assets
-import Logo from '../logos/Logo'
 import LogoDribbble from '../logos/LogoDribbble'
 import LogoAngel from '../logos/LogoAngel'
 import LogoGithub from '../logos/LogoGithub'
 import LogoLinkedin from '../logos/LogoLinkedin'
-import LogoSpotify from '../logos/LogoSpotify'
 
 function Landing() {
     //interesction observers for each section
