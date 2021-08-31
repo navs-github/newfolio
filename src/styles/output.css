@@ -611,17 +611,8 @@ video {
 .mt-40 {
 	margin-top: 10rem;
 }
-.mt-32 {
-	margin-top: 8rem;
-}
-.mt-16 {
-	margin-top: 4rem;
-}
 .mt-52 {
 	margin-top: 13rem;
-}
-.block {
-	display: block;
 }
 .flex {
 	display: flex;
@@ -655,9 +646,6 @@ video {
 }
 .w-6 {
 	width: 1.5rem;
-}
-.w-auto {
-	width: auto;
 }
 @keyframes slideup {
 
@@ -752,10 +740,10 @@ video {
 	margin-right: calc(0.5rem * var(--tw-space-x-reverse));
 	margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
-.space-x-32 > :not([hidden]) ~ :not([hidden]) {
+.space-x-44 > :not([hidden]) ~ :not([hidden]) {
 	--tw-space-x-reverse: 0;
-	margin-right: calc(8rem * var(--tw-space-x-reverse));
-	margin-left: calc(8rem * calc(1 - var(--tw-space-x-reverse)));
+	margin-right: calc(11rem * var(--tw-space-x-reverse));
+	margin-left: calc(11rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .space-x-9 > :not([hidden]) ~ :not([hidden]) {
 	--tw-space-x-reverse: 0;
@@ -807,11 +795,6 @@ video {
 	margin-right: calc(1.5rem * var(--tw-space-x-reverse));
 	margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
-.space-x-44 > :not([hidden]) ~ :not([hidden]) {
-	--tw-space-x-reverse: 0;
-	margin-right: calc(11rem * var(--tw-space-x-reverse));
-	margin-left: calc(11rem * calc(1 - var(--tw-space-x-reverse)));
-}
 .self-center {
 	align-self: center;
 }
@@ -841,13 +824,6 @@ video {
 .bg-warm {
 	--tw-bg-opacity: 1;
 	background-color: rgba(237, 235, 215, var(--tw-bg-opacity));
-}
-.bg-white {
-	--tw-bg-opacity: 1;
-	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
-}
-.bg-grain {
-	background-image: url('../img/grain.png');
 }
 .bg-contain {
 	background-size: contain;
@@ -1010,24 +986,20 @@ video {
 		margin-top: 2rem;
 	}
 
-	.xl\:mt-24 {
-		margin-top: 6rem;
-	}
-
-	.xl\:mt-6 {
-		margin-top: 1.5rem;
+	.xl\:mt-16 {
+		margin-top: 4rem;
 	}
 
 	.xl\:mt-40 {
 		margin-top: 10rem;
 	}
 
-	.xl\:mt-16 {
-		margin-top: 4rem;
+	.xl\:mt-24 {
+		margin-top: 6rem;
 	}
 
-	.xl\:block {
-		display: block;
+	.xl\:mt-6 {
+		margin-top: 1.5rem;
 	}
 
 	.xl\:flex {
