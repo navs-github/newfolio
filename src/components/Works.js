@@ -2,6 +2,9 @@
 import { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 
+//components
+import Project from './Project'
+import ArrowLinkInternal from './ArrowLinkInternal'
 
 
 //assets
@@ -27,20 +30,42 @@ function Works(props) {
         defaultThumbRef.current.classList.remove('text-yellow-base')
     }
     return (
-        <div className={"mt-12 flex flex-row w-full justify-between leading-[160%] opacity-0 " + (props.inView ? 'animate-fadein' : 'animate-none')}>
-            <ul className="items-start flex flex-col space-y-12">
-                <Link to="/">
-                    <li onMouseOver={setEnrollerThumb} ref={defaultThumbRef} className="text-yellow-base hover:text-yellow-base transition-all duration-300">Enroller</li>
-                </Link>
-                <Link to="/">
-                    <li onMouseOver={setRaofolioThumb} className="hover:text-yellow-base transition-all duration-300">raofolio</li>
-                </Link>
-                <Link to="/">
-                    <li onMouseOver={setUnicodesThumb} className="hover:text-yellow-base transition-all duration-300">navs-unicodes</li>
-                </Link>
-            </ul>
-            <img src={workImage} className="w-[700px] p-2 border border-warm" width="700" height="200" alt="" srcset="" />
-        </div>
+        <div className="w-full">
+            <article className={"w-full hidden mt-12 xl:flex flex-row justify-between leading-[160%] opacity-0 " + (props.inView ? 'animate-fadein' : 'animate-none')}>
+                <ul className="items-start flex flex-col space-y-12">
+                    <Link to="/enroller">
+                        <li onMouseOver={setEnrollerThumb} ref={defaultThumbRef} className="text-yellow-base hover:text-yellow-base transition-all duration-300">Enroller</li>
+                    </Link>
+                    <Link to="/raofolio">
+                        <li onMouseOver={setRaofolioThumb} className="hover:text-yellow-base transition-all duration-300">raofolio</li>
+                    </Link>
+                    <Link to="/unicodes">
+                        <li onMouseOver={setUnicodesThumb} className="hover:text-yellow-base transition-all duration-300">navs-unicodes</li>
+                    </Link>
+                </ul>
+                <img src={workImage} className="w-[700px] p-2 border border-warm" width="700" height="200" alt="" srcset="" />
+            </article>
+            <article className={"mt-8 xl:hidden flex flex-col space-y-36 leading-[160%] opacity-0 " + (props.inView ? 'animate-fadein' : 'animate-none')}>
+                <Project
+                    title="Enroller"
+                    body="A SaaS app that makes administrative tasks easy for students by simplifying complex processes such as course management and tuition payment."
+                    thumb={enroller_preview}
+                    to="/enroller"
+                />
+                <Project
+                    title="Raofolio"
+                    body="A fashion model's online portfolio. Designed with a minimal dark theme to keep the focus on the finer details of the imagery."
+                    thumb={raofolio_preview}
+                    to="/raofolio"
+                />
+                <Project
+                    title="Unicodes"
+                    body="An online web tool that allows quick access to unique special characters. Implemented with live search for a smooth, one-page experience."
+                    thumb={unicodes_preview}
+                    to="/unicodes"
+                />
+            </article >
+        </div >
     )
 }
 

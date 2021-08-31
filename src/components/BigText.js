@@ -1,7 +1,7 @@
 
 function BigText(props) {
     return (
-        <h2 className="text-[136px] font-work font-thin leading-[120%] tracking-wider">
+        <h2 className="self-center text-[64px] xl:text-[136px] font-work font-thin leading-[120%] tracking-wider whitespace-nowrap">
             {props.children}
         </h2>
     )

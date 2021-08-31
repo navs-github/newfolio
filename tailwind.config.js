@@ -49,6 +49,7 @@ module.exports = {
         'fadein': 'fadein 0.8s ease 0.75s forwards',
         'fadeinfaster': 'fadein 0.8s ease 0.325s forwards',
         'slideright': 'slideright 1s ease-out',
+        'slideright200': 'slideright 1s ease-out 0.2s',
         'sliderightalt': 'sliderightalt 2s ease-out 2 alternate forwards',
         'slidedown': 'slidedown 1s ease-in-out'
       },
