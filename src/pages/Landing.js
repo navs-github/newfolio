@@ -44,7 +44,7 @@ function Landing() {
             <main ref={heroRef} className="mt-20 xl:mt-32 flex flex-col items-start">
                 <BoxHeading inView={inViewHero}>ABHINAV VERMA</BoxHeading>
                 <p className="mt-8 xl:mt-12 leading-[180%] opacity-0 animate-fadein">A full stack designer — I spend my time designing smooth experiences, covering them in polished interfaces, and bringing them to life with clean code.</p>
-                <div className="mt-12 xl:mt-24 -mx-8 xl:-mx-52 animate-slideright">
+                <div className="mt-12 xl:mt-24 self-center animate-slideright">
                     <BigTextHero><span className="">CREATIVE</span> ENGINEER</BigTextHero>
                 </div>
             </main>
