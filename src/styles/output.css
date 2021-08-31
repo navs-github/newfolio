@@ -580,10 +580,6 @@ video {
 	margin-left: auto;
 	margin-right: auto;
 }
-.-mx-8 {
-	margin-left: -2rem;
-	margin-right: -2rem;
-}
 .mt-7 {
 	margin-top: 1.75rem;
 }
@@ -826,7 +822,7 @@ video {
 	background-color: rgba(237, 235, 215, var(--tw-bg-opacity));
 }
 .bg-grain {
-	background-image: url('../img/grain.png');
+	background-image: url('../img/grain.webp');
 }
 .bg-contain {
 	background-size: contain;
@@ -878,8 +874,8 @@ video {
 .text-\[64px\] {
 	font-size: 64px;
 }
-.text-\[42px\] {
-	font-size: 42px;
+.text-\[36px\] {
+	font-size: 36px;
 }
 .text-sm {
 	font-size: 0.875rem;
@@ -888,9 +884,6 @@ video {
 .text-lg {
 	font-size: 1.125rem;
 	line-height: 1.75rem;
-}
-.text-\[36px\] {
-	font-size: 36px;
 }
 .font-medium {
 	font-weight: 500;
@@ -973,11 +966,6 @@ video {
 	.xl\:-mx-40 {
 		margin-left: -10rem;
 		margin-right: -10rem;
-	}
-
-	.xl\:-mx-52 {
-		margin-left: -13rem;
-		margin-right: -13rem;
 	}
 
 	.xl\:mt-32 {
@@ -1105,6 +1093,10 @@ video {
 		font-size: 136px;
 	}
 
+	.xl\:text-\[120px\] {
+		font-size: 120px;
+	}
+
 	.xl\:text-2xl {
 		font-size: 1.5rem;
 		line-height: 2rem;
@@ -1113,9 +1105,5 @@ video {
 	.xl\:text-lg {
 		font-size: 1.125rem;
 		line-height: 1.75rem;
-	}
-
-	.xl\:text-\[120px\] {
-		font-size: 120px;
 	}
 }
