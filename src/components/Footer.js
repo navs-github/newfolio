@@ -13,7 +13,7 @@ function Footer() {
     return (
         <footer className="-mx-6 flex items-center justify-center border-t border-opacity-30 border-warm xl:-mx-40 px-6 xl:px-40 py-12 xl:py-24 bg-dark">
             {/* 💻 💻 💻 💻 💻 */}
-            <div className="hidden xl:flex flex-row space-x-44 text-lg">
+            <div className="hidden xl:flex flex-row space-x-44 text-lg 2xl:text-xl">
                 <nav className="flex flex-col items-center">
                     <Logo></Logo>
                     <ul className="mt-7 flex flex-row space-x-9">

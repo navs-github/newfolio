@@ -31,7 +31,7 @@ function Enroller() {
                 <div className={"flex flex-col items-start opacity-0 " + (inViewFirst ? 'animate-fadein' : 'animate-none')}>
                     <p className="mt-8 xl:mt-12 leading-[180%]">Enroller is a SaaS app that makes administrative tasks easy for students by simplifying complex processes such as course management and tuition payment.</p>
                     <div className="mt-12 xl:mt-16 self-center flex flex-col">
-                        <img src={enroller_preview_large} className=" object-cover h-96 p-2 border border-warm" alt="" srcset="" />
+                        <img src={enroller_preview_large} className=" object-cover h-96 2xl:h-[500px] p-2 border border-warm" alt="" srcset="" />
                         <BigText>ENROLLER</BigText>
                     </div>
                 </div>

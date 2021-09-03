@@ -49,7 +49,7 @@ function Landing() {
                 </div>
             </main>
             {/* Superpowers Section ⚡️ */}
-            <section ref={superRef} className="text-base xl:text-2xl mt-52 flex flex-col items-start">
+            <section ref={superRef} className="mt-52 2xl:mt-72 flex flex-col items-start text-base xl:text-2xl 2xl:text-3xl">
                 <BoxHeading inView={inViewSuper}>SUPERPOWERS</BoxHeading>
                 <div className={"mt-7 xl:mt-12 w-full grid grid-cols-2 gap-y-10 xl:flex xl:flex-row xl:justify-between leading-[160%] opacity-0 " + (inViewSuper ? 'animate-fadein' : 'animate-none')}>
                     <ul className="group flex flex-col space-y-5 xl:space-y-10">
@@ -76,15 +76,15 @@ function Landing() {
                 </address>
             </section>
             {/* Work Section 💻 */}
-            <section ref={workRef} className="mt-52 flex flex-col items-start">
+            <section ref={workRef} className="mt-52 2xl:mt-72 flex flex-col items-start">
                 <BoxHeading inView={inViewWork}>WORK</BoxHeading>
                 <Works inView={inViewWork}></Works>
                 <span className="mt-12 xl:mt-24 self-center">
-                    <BigText>TALENT</BigText>
+                    <BigText>PROJECTS</BigText>
                 </span>
             </section>
             {/* Contact Section 🤙 */}
-            <section ref={contactRef} className="mt-52 pb-24 flex flex-col items-start">
+            <section ref={contactRef} className="mt-52 2xl:mt-72 pb-24 flex flex-col items-start">
                 <BoxHeading inView={inViewContact}>AVAILABILITY</BoxHeading>
                 <div className={"opacity-0 " + (inViewContact ? 'animate-fadein' : 'animate-none')}>
                     <p className="mt-8 xl:mt-12 leading-[180%]">I’m on the hunt for a full-time gig at an agency or startup. I fit in best with teams that value versatility — allowing me to freely pivot between my chosen <span className="font-lora font-bold">disciplines.</span></p>
@@ -98,7 +98,7 @@ function Landing() {
                     </ul>
                 </div>
                 <span className="mt-12 xl:mt-24 self-center">
-                    <BigText>CONTACT</BigText>
+                    <BigText>CONNECT</BigText>
                 </span>
                 <address className="mt-6 self-center flex flex-row space-x-9">
                     <LogoLinkedin></LogoLinkedin>

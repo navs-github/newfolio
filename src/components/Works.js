@@ -31,7 +31,7 @@ function Works(props) {
     return (
         <div className="w-full">
             <article className={"w-full hidden mt-12 xl:flex flex-row justify-between leading-[160%] opacity-0 " + (props.inView ? 'animate-fadein' : 'animate-none')}>
-                <ul className="items-start flex flex-col space-y-12">
+                <ul className="items-start flex flex-col space-y-12 2xl:space-y-20">
                     <Link to="/enroller">
                         <li onMouseOver={setEnrollerThumb} ref={defaultThumbRef} className="text-yellow-base hover:text-yellow-base transition-all duration-300">Enroller</li>
                     </Link>
@@ -42,7 +42,7 @@ function Works(props) {
                         <li onMouseOver={setUnicodesThumb} className="hover:text-yellow-base transition-all duration-300">navs-unicodes</li>
                     </Link>
                 </ul>
-                <img src={workImage} className="w-[700px] p-2 border border-warm" width="700" height="200" alt="" srcset="" />
+                <img src={workImage} className="w-[700px] 2xl:w-[1100px] p-2 border border-warm" width="700" height="200" alt="" srcset="" />
             </article>
             <article className={"mt-8 xl:hidden flex flex-col space-y-36 leading-[160%] opacity-0 " + (props.inView ? 'animate-fadein' : 'animate-none')}>
                 <Project

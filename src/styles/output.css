@@ -813,6 +813,15 @@ video {
 .border-opacity-30 {
 	--tw-border-opacity: 0.3;
 }
+.border-opacity-50 {
+	--tw-border-opacity: 0.5;
+}
+.border-opacity-60 {
+	--tw-border-opacity: 0.6;
+}
+.border-opacity-20 {
+	--tw-border-opacity: 0.2;
+}
 .bg-dark {
 	--tw-bg-opacity: 1;
 	background-color: rgba(11, 14, 19, var(--tw-bg-opacity));
@@ -996,6 +1005,10 @@ video {
 		margin-top: 1.5rem;
 	}
 
+	.xl\:mt-56 {
+		margin-top: 14rem;
+	}
+
 	.xl\:flex {
 		display: flex;
 	}
@@ -1048,6 +1061,12 @@ video {
 		--tw-space-y-reverse: 0;
 		margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
 		margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+	}
+
+	.xl\:space-y-8 > :not([hidden]) ~ :not([hidden]) {
+		--tw-space-y-reverse: 0;
+		margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+		margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 	}
 
 	.xl\:py-2\.5 {
@@ -1105,5 +1124,92 @@ video {
 	.xl\:text-lg {
 		font-size: 1.125rem;
 		line-height: 1.75rem;
+	}
+}
+@media (min-width: 1536px) {
+
+	.\32xl\:mt-16 {
+		margin-top: 4rem;
+	}
+
+	.\32xl\:mt-56 {
+		margin-top: 14rem;
+	}
+
+	.\32xl\:mt-72 {
+		margin-top: 18rem;
+	}
+
+	.\32xl\:block {
+		display: block;
+	}
+
+	.\32xl\:hidden {
+		display: none;
+	}
+
+	.\32xl\:h-\[500px\] {
+		height: 500px;
+	}
+
+	.\32xl\:w-\[1100px\] {
+		width: 1100px;
+	}
+
+	.\32xl\:space-y-20 > :not([hidden]) ~ :not([hidden]) {
+		--tw-space-y-reverse: 0;
+		margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
+		margin-bottom: calc(5rem * var(--tw-space-y-reverse));
+	}
+
+	.\32xl\:space-y-12 > :not([hidden]) ~ :not([hidden]) {
+		--tw-space-y-reverse: 0;
+		margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+		margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+	}
+
+	.\32xl\:space-y-16 > :not([hidden]) ~ :not([hidden]) {
+		--tw-space-y-reverse: 0;
+		margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+		margin-bottom: calc(4rem * var(--tw-space-y-reverse));
+	}
+
+	.\32xl\:space-y-24 > :not([hidden]) ~ :not([hidden]) {
+		--tw-space-y-reverse: 0;
+		margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
+		margin-bottom: calc(6rem * var(--tw-space-y-reverse));
+	}
+
+	.\32xl\:px-56 {
+		padding-left: 14rem;
+		padding-right: 14rem;
+	}
+
+	.\32xl\:text-\[180px\] {
+		font-size: 180px;
+	}
+
+	.\32xl\:text-2xl {
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+
+	.\32xl\:text-3xl {
+		font-size: 1.875rem;
+		line-height: 2.25rem;
+	}
+
+	.\32xl\:text-xl {
+		font-size: 1.25rem;
+		line-height: 1.75rem;
+	}
+
+	.\32xl\:text-base {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
+	.\32xl\:text-\[18px\] {
+		font-size: 18px;
 	}
 }

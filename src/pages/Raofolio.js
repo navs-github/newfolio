@@ -31,7 +31,7 @@ function Raofolio() {
                 <div className={"flex flex-col items-start opacity-0 " + (inViewFirst ? 'animate-fadein' : 'animate-none')}>
                     <p className="mt-8 xl:mt-12 leading-[180%]">A fashion model's online portfolio. Designed with a minimal dark theme to keep the focus on the finer details of the imagery.</p>
                     <div className="mt-12 xl:mt-16 self-center flex flex-col">
-                        <img src={raofolio_preview_large} className="object-cover h-96 p-2 border border-warm" alt="" srcset="" />
+                        <img src={raofolio_preview_large} className="object-cover h-96 2xl:h-[500px] p-2 border border-warm" alt="" srcset="" />
                         <BigText>RAOFOLIO</BigText>
                     </div>
                 </div>
