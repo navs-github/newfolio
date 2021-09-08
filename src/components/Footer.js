@@ -98,7 +98,7 @@ function Footer() {
                         <li className=""><LogoSpotify></LogoSpotify></li>
                     </ul>
                     <span className="mt-8">Based in Guelph, Ontario</span>
-
+                    <span className="mt-4 text-xs">© 2021 Abhinav Verma | All Rights Reserved</span>
                 </nav>
             </div>
         </footer>

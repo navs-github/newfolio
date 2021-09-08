@@ -14,57 +14,59 @@ import raofolio_preview from '../img/raofolio_preview.webp'
 
 function Works(props) {
 
-    const defaultThumbRef = useRef()
+    // const defaultThumbRef = useRef()
 
-    const [workImage, setWorkImage] = useState(enroller_preview)
-    function setEnrollerThumb() {
-        setWorkImage(enroller_preview)
-    }
-    function setRaofolioThumb() {
-        setWorkImage(raofolio_preview)
-        defaultThumbRef.current.classList.remove('text-yellow-base')
-    }
-    function setUnicodesThumb() {
-        setWorkImage(unicodes_preview)
-        defaultThumbRef.current.classList.remove('text-yellow-base')
-    }
+    // const [workImage, setWorkImage] = useState(enroller_preview)
+    // function setEnrollerThumb() {
+    //     setWorkImage(enroller_preview)
+    // }
+    // function setRaofolioThumb() {
+    //     setWorkImage(raofolio_preview)
+    //     defaultThumbRef.current.classList.remove('text-yellow-base')
+    // }
+    // function setUnicodesThumb() {
+    //     setWorkImage(unicodes_preview)
+    //     defaultThumbRef.current.classList.remove('text-yellow-base')
+    // }
     return (
-        <div className="w-full">
-            <article className={"w-full hidden mt-12 xl:flex flex-row justify-between leading-[160%] opacity-0 " + (props.inView ? 'animate-fadein' : 'animate-none')}>
-                <ul className="items-start flex flex-col space-y-12 2xl:space-y-20">
-                    <Link to="/enroller">
-                        <li onMouseOver={setEnrollerThumb} ref={defaultThumbRef} className="text-yellow-base hover:text-yellow-base transition-all duration-300">Enroller</li>
-                    </Link>
-                    <Link to="/raofolio">
-                        <li onMouseOver={setRaofolioThumb} className="hover:text-yellow-base transition-all duration-300">raofolio</li>
-                    </Link>
-                    <Link to="/unicodes">
-                        <li onMouseOver={setUnicodesThumb} className="hover:text-yellow-base transition-all duration-300">navs-unicodes</li>
-                    </Link>
-                </ul>
-                <img src={workImage} className="w-[700px] 2xl:w-[1100px] p-2 border border-warm" width="700" height="200" alt="" srcset="" />
-            </article>
-            <article className={"mt-8 xl:hidden flex flex-col space-y-36 leading-[160%] opacity-0 " + (props.inView ? 'animate-fadein' : 'animate-none')}>
-                <Project
-                    title="Enroller"
-                    body="A SaaS app that makes administrative tasks easy for students by simplifying complex processes such as course management and tuition payment."
-                    thumb={enroller_preview}
-                    to="/enroller"
-                />
-                <Project
-                    title="Raofolio"
-                    body="A fashion model's online portfolio. Designed with a minimal dark theme to keep the focus on the finer details of the imagery."
-                    thumb={raofolio_preview}
-                    to="/raofolio"
-                />
-                <Project
-                    title="Unicodes"
-                    body="An online web tool that allows quick access to unique special characters. Implemented with live search for a smooth, one-page experience."
-                    thumb={unicodes_preview}
-                    to="/unicodes"
-                />
-            </article >
-        </div >
+        // <div className="w-full">
+        //     <article className={"w-full hidden mt-12 xl:flex flex-row justify-between leading-[160%] opacity-0 " + (props.inView ? 'animate-fadein' : 'animate-none')}>
+        //         <ul className="items-start flex flex-col space-y-12 2xl:space-y-20">
+        //             <Link to="/enroller">
+        //                 <li onMouseOver={setEnrollerThumb} ref={defaultThumbRef} className="text-yellow-base hover:text-yellow-base transition-all duration-300">Enroller</li>
+        //             </Link>
+        //             <Link to="/raofolio">
+        //                 <li onMouseOver={setRaofolioThumb} className="hover:text-yellow-base transition-all duration-300">raofolio</li>
+        //             </Link>
+        //             <Link to="/unicodes">
+        //                 <li onMouseOver={setUnicodesThumb} className="hover:text-yellow-base transition-all duration-300">navs-unicodes</li>
+        //             </Link>
+        //         </ul>
+        //         <img src={workImage} className="w-[700px] 2xl:w-[1100px] p-2 border border-warm" width="700" height="200" alt="" srcset="" />
+        //     </article>
+        <article className={"mt-8 xl:mt-12 flex flex-col space-y-36 xl:space-y-52 leading-[160%] opacity-0 " + (props.inView ? 'animate-fadein' : 'animate-none')}>
+            <Project
+                title="Raofolio"
+                body="A fashion model's online portfolio. Designed with a minimal dark theme to keep the focus on the finer details of the imagery."
+                thumb={raofolio_preview}
+                to="/raofolio"
+                link="https://raofolio.in"
+            />
+            <Project
+                title="Unicodes"
+                body="A web tool that allows quick access to unique special characters. Implemented with live search for a smooth, one-page experience."
+                thumb={unicodes_preview}
+                to="/unicodes"
+                link="https://navs-unicodes.vercel.app/"
+            />
+            <Project
+                title="Enroller"
+                body="A university SaaS app that makes administrative tasks easy for students by simplifying complex processes such as course management and tuition payment."
+                thumb={enroller_preview}
+                to="/enroller"
+            />
+        </article >
+        // </div >
     )
 }
 

@@ -26,7 +26,7 @@ function NotReady() {
                 <BoxHeading inView={inViewFirst}>UNDER CONSTRUCTION</BoxHeading>
                 <p className="mt-8 xl:mt-12 leading-[180%] opacity-0 animate-fadein">This section is currently undergoing development and testing. I wouldn't publish something that isn't up to my standards.</p>
                 <p className="mt-6 xl:mt-8 leading-[180%] opacity-0 animate-fadein">In the meantime, feel free to check out some of the other sections.</p>
-                <ul className="mt-8 xl:mt-12 space-y-4 xl:space-y-6">
+                <ul className="mt-8 xl:mt-12 space-y-4">
                     <li className="">
                         <ArrowLinkInternal text="ABOUT ME" to="/about"></ArrowLinkInternal>
                     </li>

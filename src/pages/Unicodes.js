@@ -29,7 +29,7 @@ function Unicodes() {
             <main ref={firstRef} className="mt-20 xl:mt-32 flex flex-col items-start">
                 <BoxHeading inView={inViewFirst}>BACKGROUND</BoxHeading>
                 <div className={"flex flex-col items-start opacity-0 " + (inViewFirst ? 'animate-fadein' : 'animate-none')}>
-                    <p className="mt-8 xl:mt-12 leading-[180%]">An online web tool that allows quick access to unique special characters. Implemented with live search for a smooth, one-page experience.</p>
+                    <p className="mt-8 xl:mt-12 leading-[180%]">A web tool that allows quick access to unique special characters. Implemented with live search for a smooth, one-page experience.</p>
                     <div className="mt-12 xl:mt-16 self-center flex flex-col">
                         <img src={unicodes_preview_large} className="object-cover h-96 2xl:h-[500px] p-2 border border-warm" alt="" srcset="" />
                         <BigText>UNICODES</BigText>
