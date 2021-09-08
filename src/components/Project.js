@@ -1,6 +1,5 @@
 //packages
 import { Link } from 'react-router-dom'
-import { useInView } from 'react-intersection-observer';
 
 
 

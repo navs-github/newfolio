@@ -1,6 +1,4 @@
 //packages
-import { useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
 
 //components
 import Project from './Project'
