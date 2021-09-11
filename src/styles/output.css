@@ -611,6 +611,9 @@ video {
 .mt-52 {
 	margin-top: 13rem;
 }
+.mt-64 {
+	margin-top: 16rem;
+}
 .flex {
 	display: flex;
 }
@@ -927,6 +930,10 @@ video {
 	font-size: 0.75rem;
 	line-height: 1rem;
 }
+.text-4xl {
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+}
 .font-medium {
 	font-weight: 500;
 }
@@ -984,6 +991,30 @@ video {
 .duration-300 {
 	transition-duration: 300ms;
 }
+.selection\:bg-yellow-base *::selection {
+	--tw-bg-opacity: 1;
+	background-color: rgba(227, 178, 60, var(--tw-bg-opacity));
+}
+.selection\:text-yellow-base *::selection {
+	--tw-text-opacity: 1;
+	color: rgba(227, 178, 60, var(--tw-text-opacity));
+}
+.selection\:text-black *::selection {
+	--tw-text-opacity: 1;
+	color: rgba(0, 0, 0, var(--tw-text-opacity));
+}
+.selection\:bg-yellow-base::selection {
+	--tw-bg-opacity: 1;
+	background-color: rgba(227, 178, 60, var(--tw-bg-opacity));
+}
+.selection\:text-yellow-base::selection {
+	--tw-text-opacity: 1;
+	color: rgba(227, 178, 60, var(--tw-text-opacity));
+}
+.selection\:text-black::selection {
+	--tw-text-opacity: 1;
+	color: rgba(0, 0, 0, var(--tw-text-opacity));
+}
 .hover\:text-yellow-base:hover {
 	--tw-text-opacity: 1;
 	color: rgba(227, 178, 60, var(--tw-text-opacity));
@@ -1008,6 +1039,11 @@ video {
 	.xl\:-mx-40 {
 		margin-left: -10rem;
 		margin-right: -10rem;
+	}
+
+	.xl\:-mx-44 {
+		margin-left: -11rem;
+		margin-right: -11rem;
 	}
 
 	.xl\:mt-6 {
@@ -1102,6 +1138,30 @@ video {
 		margin-left: calc(2.25rem * calc(1 - var(--tw-space-x-reverse)));
 	}
 
+	.xl\:space-y-12 > :not([hidden]) ~ :not([hidden]) {
+		--tw-space-y-reverse: 0;
+		margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+		margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+	}
+
+	.xl\:space-y-20 > :not([hidden]) ~ :not([hidden]) {
+		--tw-space-y-reverse: 0;
+		margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
+		margin-bottom: calc(5rem * var(--tw-space-y-reverse));
+	}
+
+	.xl\:space-y-16 > :not([hidden]) ~ :not([hidden]) {
+		--tw-space-y-reverse: 0;
+		margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+		margin-bottom: calc(4rem * var(--tw-space-y-reverse));
+	}
+
+	.xl\:space-y-6 > :not([hidden]) ~ :not([hidden]) {
+		--tw-space-y-reverse: 0;
+		margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+		margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+	}
+
 	.xl\:py-2\.5 {
 		padding-top: 0.625rem;
 		padding-bottom: 0.625rem;
@@ -1130,6 +1190,16 @@ video {
 	.xl\:py-24 {
 		padding-top: 6rem;
 		padding-bottom: 6rem;
+	}
+
+	.xl\:px-48 {
+		padding-left: 12rem;
+		padding-right: 12rem;
+	}
+
+	.xl\:px-44 {
+		padding-left: 11rem;
+		padding-right: 11rem;
 	}
 
 	.xl\:pt-12 {
@@ -1161,6 +1231,20 @@ video {
 
 	.xl\:text-\[22px\] {
 		font-size: 22px;
+	}
+
+	.xl\:text-4xl {
+		font-size: 2.25rem;
+		line-height: 2.5rem;
+	}
+
+	.xl\:text-3xl {
+		font-size: 1.875rem;
+		line-height: 2.25rem;
+	}
+
+	.xl\:text-\[28px\] {
+		font-size: 28px;
 	}
 
 	.xl\:opacity-80 {
@@ -1226,6 +1310,12 @@ video {
 		--tw-space-y-reverse: 0;
 		margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
 		margin-bottom: calc(4rem * var(--tw-space-y-reverse));
+	}
+
+	.\32xl\:space-y-8 > :not([hidden]) ~ :not([hidden]) {
+		--tw-space-y-reverse: 0;
+		margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+		margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 	}
 
 	.\32xl\:px-56 {

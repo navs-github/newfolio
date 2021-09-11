@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import TopNav from '../components/TopNav'
 import BoxHeading from '../components/BoxHeading'
 import ArrowLinkExternal from '../components/ArrowLinkExternal'
+import ArrowLinkSet from '../components/ArrowLinkSet';
 import Footer from '../components/Footer'
 
 function Contact() {
@@ -22,10 +23,14 @@ function Contact() {
                 <div className={"flex flex-col items-start opacity-0 " + (inViewFirst ? 'animate-fadein' : 'animate-none')}>
                     <p className="mt-8 xl:mt-12 leading-[180%]">I’m on the hunt for a full-time gig at an agency or startup. Looking to relocate to either Toronto or Vancouver.</p>
                     <p className="mt-6 xl:mt-8 leading-[180%]">I'm quickest to respond on my work email, or my angel account.</p>
-                    <div className="mt-12 flex flex-col space-y-4">
-                        <ArrowLinkExternal text="EMAIL ME" link="mailto:nav.verma.work@gmail.com"></ArrowLinkExternal>
-                        <ArrowLinkExternal text="MY ANGEL PROFILE" link="https://angel.co/u/nav-verma"></ArrowLinkExternal>
-                    </div>
+                    <ArrowLinkSet>
+                        <li>
+                            <ArrowLinkExternal text="EMAIL ME" link="mailto:nav.verma.work@gmail.com"></ArrowLinkExternal>
+                        </li>
+                        <li>
+                            <ArrowLinkExternal text="MY ANGEL PROFILE" link="https://angel.co/u/nav-verma"></ArrowLinkExternal>
+                        </li>
+                    </ArrowLinkSet>
 
                 </div>
             </main>

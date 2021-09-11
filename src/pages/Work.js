@@ -23,7 +23,7 @@ function Work() {
             <TopNav></TopNav>
             {/* Intro Section 👋 */}
             <main ref={workRef} className="mt-20 xl:mt-32 pb-24 flex flex-col items-start">
-                <BoxHeading inView={inViewWork}>WORK</BoxHeading>
+                <BoxHeading inView={inViewWork}>PROECTS</BoxHeading>
                 <Works inView={inViewWork}></Works>
             </main>
             <Footer></Footer>
