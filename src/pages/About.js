@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import TopNav from '../components/TopNav'
 import BoxHeading from '../components/BoxHeading'
 import Footer from '../components/Footer'
+import ArrowLinkExternal from '../components/ArrowLinkExternal';
 
 function About() {
     //interesction observers for each section
@@ -42,7 +43,6 @@ function About() {
                     <p className="leading-[180%]">I help teams bridge the gap between design and development with my extraordinarily diverse set of skills. I’m a self-sufficient digital <span className="font-lora font-bold">designer</span> and front-end <span className="font-lora font-bold">developer</span>.</p>
                 </div>
             </main>
-
             {/* Superpowers Section ⚡️ */}
             <section ref={posnRef} className="mt-40 2xl:mt-56 flex flex-col items-start">
                 <BoxHeading inView={inViewPosn}>POSITIONING</BoxHeading>
@@ -50,6 +50,9 @@ function About() {
                     <p className="leading-[180%]">While able to solo pilot an end-to-end design process, I prefer to work in small teams that thrive on cross-disciplinary overlap.</p>
                     <p className="leading-[180%]">My <span className="font-lora font-bold">design process</span> is centered around making life easy for users, invoking all sorts of positive emotions. I ideate features that reduce complex problems into bite-sized interactions, subject to rigorous feedback and constant iteration.</p>
                     <p className="leading-[180%]">My <span className="font-lora font-bold">coding process</span> revolves around writing clean code that lasts. At the start of projects, I find that envisioning and planning out a coherent front-end architecture results in conveniently scalable code, which is easy to read, and highly performant.</p>
+                </div>
+                <div className={"mt-8 xl:mt-12 2xl:mt-16 space-y-6 xl:space-y-8 2xl:space-y-16 opacity-0 " + (inViewPosn ? 'animate-fadein' : 'animate-none')}>
+                    <ArrowLinkExternal text="VIEW MY RESUME" link="https://drive.google.com/file/d/1cq3PyqHDiksbFjRD9WShouL_XR28-GI_/view?usp=sharing"></ArrowLinkExternal>
                 </div>
             </section>
             {/* Superpowers Section ⚡️ */}

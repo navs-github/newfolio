@@ -96,7 +96,7 @@ function Landing() {
             <section ref={contactRef} className="mt-52 2xl:mt-72 pb-24 flex flex-col items-start">
                 <BoxHeading inView={inViewContact}>AVAILABILITY</BoxHeading>
                 <div className={"opacity-0 " + (inViewContact ? 'animate-fadein' : 'animate-none')}>
-                    <p className="mt-8 xl:mt-12 leading-[180%]">I’m on the hunt for a full-time gig at an agency or startup. I fit in best with teams that value versatility — allowing me to freely pivot between my chosen <span className="font-lora font-bold">disciplines.</span></p>
+                    <p className="mt-8 xl:mt-12 leading-[180%]">I’m on the hunt for a full-time gig at an agency or startup. I fill roles between UX designer, front-end developer, and anything in between.</p>
                     <ul className="mt-12 flex flex-col items-start space-y-4 2xl:space-y-6">
                         <li className="">
                             <ArrowLinkExternal text="EMAIL ME" link="mailto:nav.verma.work@gmail.com" />
