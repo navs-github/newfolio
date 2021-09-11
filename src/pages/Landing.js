@@ -45,7 +45,7 @@ function Landing() {
             {/* Intro Section 👋 */}
             <main ref={heroRef} className="mt-20 xl:mt-32 flex flex-col items-start">
                 <BoxHeading inView={inViewHero}>ABHINAV VERMA</BoxHeading>
-                <p className="mt-8 xl:mt-12 leading-[180%] opacity-0 animate-fadein">A full stack designer — I spend my time designing smooth experiences, covering them in polished interfaces, and bringing them to life with clean code.</p>
+                <p className="mt-8 xl:mt-12 leading-[180%] opacity-0 animate-fadein">A front-end developer and product designer. I spend my time ideating, designing, and coding polished digital interactions.</p>
                 <ArrowLinkSet>
                     <li className="">
                         <ArrowLinkInternal text="MORE ABOUT ME" to="/about"></ArrowLinkInternal>

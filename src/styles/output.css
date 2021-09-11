@@ -858,6 +858,10 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(237, 235, 215, var(--tw-bg-opacity));
 }
+.bg-white {
+	--tw-bg-opacity: 1;
+	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
 .bg-grain {
 	background-image: url('../img/grain.webp');
 }
@@ -974,6 +978,18 @@ video {
 }
 .opacity-30 {
 	opacity: 0.3;
+}
+.opacity-50 {
+	opacity: 0.5;
+}
+.opacity-75 {
+	opacity: 0.75;
+}
+.opacity-80 {
+	opacity: 0.8;
+}
+.opacity-90 {
+	opacity: 0.9;
 }
 .transition-colors {
 	transition-property: background-color, border-color, color, fill, stroke;
@@ -1092,6 +1108,10 @@ video {
 
 	.xl\:flex-row {
 		flex-direction: row;
+	}
+
+	.xl\:items-start {
+		align-items: flex-start;
 	}
 
 	.xl\:justify-start {
@@ -1245,6 +1265,14 @@ video {
 
 	.xl\:text-\[28px\] {
 		font-size: 28px;
+	}
+
+	.xl\:font-light {
+		font-weight: 300;
+	}
+
+	.xl\:font-normal {
+		font-weight: 400;
 	}
 
 	.xl\:opacity-80 {

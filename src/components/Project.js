@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 //components
+import ArrowLinkSet from './ArrowLinkSet'
 import ArrowLinkInternal from './ArrowLinkInternal'
 import ArrowLinkExternal from './ArrowLinkExternal'
 
@@ -19,12 +20,16 @@ function Project(props) {
             <Link to={props.to}>
                 <img src={props.thumb} className="2xl:h-[400px] w-[1400px] mt-6 xl:mt-12 p-1 border border-warm border-opacity-30 xl:opacity-80 xl:hover:opacity-100" width="700" height="200" alt="" srcset="" />
             </Link>
-            <div className="mt-5 xl:mt-10 flex flex-col space-y-4 2xl:space-y-6">
-                <ArrowLinkInternal text="LEARN MORE" to={props.to}></ArrowLinkInternal>
+            <ArrowLinkSet>
+                <li>
+                    <ArrowLinkInternal text="LEARN MORE" to={props.to}></ArrowLinkInternal>
+                </li>
                 {props.link &&
-                    <ArrowLinkExternal text="VISIT WEBSITE" link={props.link}></ArrowLinkExternal>
+                    <li>
+                        <ArrowLinkExternal text="VISIT WEBSITE" link={props.link}></ArrowLinkExternal>
+                    </li>
                 }
-            </div>
+            </ArrowLinkSet>
         </div>
     )
 }

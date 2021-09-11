@@ -24,6 +24,8 @@ function Footer() {
                         <li className=""><LogoSpotify></LogoSpotify></li>
                     </ul>
                     <span className="mt-8">Based in Guelph, Ontario</span>
+                    <span className="mt-4 text-sm">© 2021 Abhinav Verma | All Rights Reserved</span>
+
 
                 </nav>
                 <nav className="flex flex-row space-x-20">
