@@ -614,6 +614,9 @@ video {
 .mt-64 {
 	margin-top: 16rem;
 }
+.mt-2 {
+	margin-top: 0.5rem;
+}
 .flex {
 	display: flex;
 }
