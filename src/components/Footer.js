@@ -7,6 +7,7 @@ import LogoDribbble from '../logos/LogoDribbble'
 import LogoAngel from '../logos/LogoAngel'
 import LogoGithub from '../logos/LogoGithub'
 import LogoLinkedin from '../logos/LogoLinkedin'
+import LogoInstagram from '../logos/LogoInstagram'
 import LogoSpotify from '../logos/LogoSpotify'
 
 function Footer() {
@@ -97,6 +98,7 @@ function Footer() {
                         <li className=""><LogoDribbble></LogoDribbble></li>
                         <li className=""><LogoLinkedin></LogoLinkedin></li>
                         <li className=""><LogoAngel></LogoAngel></li>
+                        <li className=""><LogoInstagram></LogoInstagram></li>
                         <li className=""><LogoSpotify></LogoSpotify></li>
                     </ul>
                     <span className="mt-8">Based in Guelph, Ontario</span>

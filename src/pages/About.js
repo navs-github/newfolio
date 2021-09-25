@@ -49,7 +49,7 @@ function About() {
                 </div>
             </main>
             {/* Superpowers Section ⚡️ */}
-            <section ref={posnRef} className="mt-40 2xl:mt-56 flex flex-col items-start">
+            <section ref={posnRef} className="mt-40 xl:mt-52 2xl:mt-56 flex flex-col items-start">
                 <BoxHeading inView={inViewPosn}>POSITIONING</BoxHeading>
                 <div className={"mt-8 xl:mt-12 2xl:mt-16 space-y-6 xl:space-y-16 2xl:space-y-16 opacity-0 " + (inViewPosn ? 'animate-fadein' : 'animate-none')}>
                     <p className="leading-[180%]">While able to solo pilot an end-to-end design process, I prefer to work in small teams that thrive on cross-disciplinary overlap.</p>
@@ -61,7 +61,7 @@ function About() {
                 </div>
             </section>
             {/* Superpowers Section ⚡️ */}
-            <section ref={expRef} className="mt-40 2xl:mt-56 flex flex-col items-start">
+            <section ref={expRef} className="mt-40 xl:mt-52 2xl:mt-56 flex flex-col items-start">
                 <BoxHeading inView={inViewExp}>EXPERIENCE</BoxHeading>
                 <div className={"mt-8 xl:mt-12 2xl:mt-16 space-y-6 xl:space-y-16 2xl:space-y-16 opacity-0 " + (inViewExp ? 'animate-fadein' : 'animate-none')}>
                     <p className="leading-[180%]">During sophomore year, I discovered my passions for website design and front-end development. Not long after, I wanted my work to reach real users.</p>
@@ -73,7 +73,7 @@ function About() {
                 </div>
             </section>
             {/* Work Section 💻 */}
-            <section ref={toolsRef} className="mt-40 2xl:mt-56 flex flex-col items-start">
+            <section ref={toolsRef} className="mt-40 xl:mt-52 2xl:mt-56 flex flex-col items-start">
                 <BoxHeading inView={inViewTools}>TOOLS</BoxHeading>
                 <div className={"mt-8 xl:mt-12 2xl:mt-16 space-y-6 xl:space-y-16 2xl:space-y-16 opacity-0 " + (inViewTools ? 'animate-fadein' : 'animate-none')}>
                     <p className="leading-[180%]">My design tool of choice is <span className="font-lora font-bold">Figma</span>. It’s packed with intuitive and time-saving features, along with a wide selection of useful community-made plugins. I plan on writing blog posts about particular Figma features that I love — Auto Layout, for example.</p>
@@ -82,7 +82,7 @@ function About() {
                 </div>
             </section>
             {/* Contact Section 🤙 */}
-            <section ref={lifeRef} className="mt-40 2xl:mt-56 pb-24 flex flex-col items-start">
+            <section ref={lifeRef} className="mt-40 xl:mt-52 2xl:mt-56 pb-24 flex flex-col items-start">
                 <BoxHeading inView={inViewLife}>LIFE</BoxHeading>
                 <div className={"mt-8 xl:mt-12 2xl:mt-16 space-y-6 xl:space-y-16 2xl:space-y-16 opacity-0 " + (inViewLife ? 'animate-fadein' : 'animate-none')}>
                     <p className="leading-[180%]">In my off time, I take care of my plants and my pet cat, Blue. I spend a decent chunk of my time organizing my belongings and designing the interior of my room. </p>

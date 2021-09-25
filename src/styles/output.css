@@ -1097,6 +1097,10 @@ video {
 		margin-top: 6rem;
 	}
 
+	.xl\:mt-52 {
+		margin-top: 13rem;
+	}
+
 	.xl\:flex {
 		display: flex;
 	}
