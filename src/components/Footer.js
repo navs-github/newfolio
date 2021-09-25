@@ -22,6 +22,7 @@ function Footer() {
                         <li className=""><LogoDribbble></LogoDribbble></li>
                         <li className=""><LogoLinkedin></LogoLinkedin></li>
                         <li className=""><LogoAngel></LogoAngel></li>
+                        <li className=""><LogoInstagram></LogoInstagram></li>
                         <li className=""><LogoSpotify></LogoSpotify></li>
                     </ul>
                     <span className="mt-8">Based in Guelph, Ontario</span>
