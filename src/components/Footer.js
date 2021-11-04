@@ -25,7 +25,7 @@ function Footer() {
                         <li className=""><LogoInstagram></LogoInstagram></li>
                         <li className=""><LogoSpotify></LogoSpotify></li>
                     </ul>
-                    <span className="mt-8">Based in Guelph, Ontario</span>
+                    <span className="mt-8">Based in Toronto, Ontario</span>
                     <span className="mt-2 text-sm">© 2021 Abhinav Verma | All Rights Reserved</span>
 
 
