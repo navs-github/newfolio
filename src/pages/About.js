@@ -53,7 +53,7 @@ function About() {
                 <BoxHeading inView={inViewPosn}>POSITIONING</BoxHeading>
                 <div className={"mt-8 xl:mt-12 2xl:mt-16 space-y-6 xl:space-y-16 2xl:space-y-16 opacity-0 " + (inViewPosn ? 'animate-fadein' : 'animate-none')}>
                     <p className="leading-[180%]">While able to solo pilot an end-to-end design process, I prefer to work in small teams that thrive on cross-disciplinary overlap.</p>
-                    <p className="leading-[180%]">My <span className="font-lora font-bold">design process</span> is centered around making life easy for users, invoking all sorts of positive emotions. I ideate features that reduce complex problems into bite-sized interactions, subject to rigorous feedback and constant iteration.</p>
+                    <p className="leading-[180%]">My <span className="font-lora font-bold">design process</span> is centered around making life easy for users. I ideate features that reduce complex problems into bite-sized interactions, subject to rigorous feedback and constant iteration.</p>
                     <p className="leading-[180%]">My <span className="font-lora font-bold">coding process</span> revolves around writing clean code that lasts. At the start of projects, I find that envisioning and planning out a coherent front-end architecture results in conveniently scalable code, which is easy to read, and highly performant.</p>
                 </div>
                 <div className={"mt-8 xl:mt-16 2xl:mt-16 space-y-6 xl:space-y-16 2xl:space-y-16 opacity-0 " + (inViewPosn ? 'animate-fadein' : 'animate-none')}>
