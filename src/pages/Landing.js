@@ -97,7 +97,7 @@ function Landing() {
             <section ref={contactRef} className="mt-64 2xl:mt-72 pb-24 flex flex-col items-start">
                 <BoxHeading inView={inViewContact}>AVAILABILITY</BoxHeading>
                 <div className={"opacity-0 " + (inViewContact ? 'animate-fadein' : 'animate-none')}>
-                    <p className="mt-8 xl:mt-12 leading-[180%]">I'm working full time @<span className="font-lora font-bold">BOXHUB. </span>Don't be shy though, I'm always up for a chat about front-end architecture, product design, or cats!</p>
+                    <p className="mt-8 xl:mt-12 leading-[180%]">I'm working full time at <span className="font-lora font-bold">Boxhub</span>, a small startup based in Toronto. Don't be shy though, I'm always up for a chat about front-end architecture, product design, or cats.</p>
                     <ArrowLinkSet>
                         <li className="">
                             <ArrowLinkExternal text="EMAIL ME" link="mailto:nav.verma.work@gmail.com" />
