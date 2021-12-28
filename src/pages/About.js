@@ -73,7 +73,7 @@ function About() {
                 <div className={"mt-8 xl:mt-16 2xl:mt-16 opacity-0 " + (inViewExp ? 'animate-fadein' : 'animate-none')}>
                     <ArrowLinkSet>
                         <ArrowLinkExternal text="VIEW MY RESUME" link="https://drive.google.com/file/d/1cq3PyqHDiksbFjRD9WShouL_XR28-GI_/view?usp=sharing"></ArrowLinkExternal>
-                        <ArrowLinkExternal text="VISIT BOXHUB" link="https://drive.google.com/file/d/1cq3PyqHDiksbFjRD9WShouL_XR28-GI_/view?usp=sharing"></ArrowLinkExternal>
+                        <ArrowLinkExternal text="VISIT BOXHUB" link="https://www.boxhub.com"></ArrowLinkExternal>
                     </ArrowLinkSet>
                 </div>
             </section>
